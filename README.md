@@ -5,6 +5,8 @@ I also ran the tests and generated the plots using R.
 
 ---
 
+## Experimental setup
+
 We focused our OpenCV benchmark on the impact of the three optimizations listed below.
 Since IPP is highly dependent on AVX2, we did not benchmark IPP without AVX2.
 In total, we tested 11 optimization setups and one scenario with no optimization.
@@ -24,3 +26,11 @@ We selected three OpenCV functions to benchmark.
 - Canny
 - detectMultiScale in HOGDescriptor class
 - warpPerspective
+
+## Some results
+
+![Plot results for Canny with lena](./plots/canny_lena.png)
+
+![Plot results for HOG](./plots/hog.png)
+
+![Plot results for warpPerspective with 1920x1080 px](./plots/warpPerspective_1920x1080.png)
