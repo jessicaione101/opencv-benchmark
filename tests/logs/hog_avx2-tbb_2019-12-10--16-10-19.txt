@@ -1,0 +1,2 @@
+image_filename	image_size	classifier	coefficients	samples	min_sec	max_sec	median_sec	gmean_sec	mean_sec	stddev_sec
+people.jpg	[1280 x 853]	svm	default_people_detector	100	0.160376	0.228114	0.189256	0.190291	0.190832	0.0145011
